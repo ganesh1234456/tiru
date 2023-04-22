@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d1{
+        width: 100%;
+        height: 4100px;
+        background-color: black;
+        margin-top: -50px;
+    } 
+    #d2{
+        width: 300px;
+        height: 300px;
+        background-image: url('../images/id1.jpg');
+        background-size: 200px 200px;
+      margin-top: 200px;
+        background-repeat: no-repeat;
+        float: right;
+        transition: 2s;
+      
+    }
+    #d2:hover{
+        transform: scale(1.5);
+    }
+        #name1{
+            font-size: 0px;
+        color:black;
+        padding-top: 50px;
+
+    
+        padding-left: 110px;
+        transition: all 3s;
+
+        }
+        #d2:hover #name1{
+            font-size: 30px;
+            transform: scale(2)  ;
+        }
+        #d3{
+            width: 300px;
+        height: 300px;
+        background-image: url('../images/id3.webp');
+    
+        background-size: 200px 200px;
+      margin-top: 200px;
+        background-repeat: no-repeat;
+        float: right;
+        transition: 2s;
+ }
+        #d3:hover{
+        transform: scale(1.5);
+    }
+    #name2{
+            font-size: 0px;
+        color:black;
+        padding-top: 50px;
+
+    
+        padding-left: 90px;
+        transition: all 3s;
+
+        }
+        #d3:hover #name2{
+            font-size: 30px;
+            transform: scale(2)  ;
+        }
+        #d4{
+            width: 300px;
+        height: 300px;
+        background-image: url('../images/id4.jpeg');
+        background-size: 200px 200px;
+      margin-top: 200px;
+        background-repeat: no-repeat;
+        position: absolute;
+                  top: 250px;
+                  left: 1050px;
+                  transition: 2s;
+        }
+        #d4:hover{
+        transform: scale(1.5);
+    }
+    #name3{
+            font-size: 0px;
+        color:black;
+        padding-top: 50px;
+
+    
+        padding-left: 90px;
+        transition: all 3s;
+    }
+    #d4:hover #name3{
+            font-size: 30px;
+            transform: scale(2)  ;
+        }
+        #d5{
+            width: 300px;
+        height: 300px;
+        background-image: url('../images/id2.jpg');
+        background-size: 200px 200px;
+      margin-top: 200px;
+        background-repeat: no-repeat;
+        position: absolute;
+                  top: 250px;
+                  left: 750px;
+                  transition: 2s;
+        }
+        #d5:hover{
+        transform: scale(1.5);
+    }
+    #name4{
+            font-size: 0px;
+        color:black;
+        padding-top: 50px;
+
+    
+        padding-left: 110px;
+        transition: all 3s;
+    }
+    #d5:hover #name4{
+            font-size: 30px;
+            transform: scale(2)  ;
+        }
+        #s1{
+            color: white;
+            font-size: 200px;
+            text-shadow: 0px 5px 0px red;
+            position: absolute;
+                       top: 80px;
+
+        }
+        #s2{
+            color: white;
+            font-size: 200px;
+            text-shadow: 5px 0px 0px red;
+            position: absolute;
+                       top: 300px;
+
+        }
+        #s3{
+            color: white;
+            font-size: 200px;
+            text-shadow: 5px 0px 0px red;
+            position: absolute;
+                       top: 600px;
+ }
+ #h1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 100%;
+    background-color: green;
+    position: absolute;
+             left: -100px;
+             top: 800px;
+ }
+ #h2{
+    color:white;
+    font-size: 70px;
+    text-shadow: 5px 0px 0px blue;
+    position: absolute;
+             left: 0px;
+             top: 850px;
+ }
+ #d11{
+    
+    color: white;
+    font-size: 150px;
+    text-shadow: 5px 0px 0px red;
+    position: absolute;
+             top:950px;
+             left: 200px;
+             letter-spacing: 25px;
+
+ }
+ #d12{
+    width: 700px;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+      position: absolute;
+              top: 750px;
+              left: 700px;
+
+ }
+ img{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+           top:1250px;
+           left: 300px;
+ }
+ #d13{
+    width: 500px;
+    height: 500px;
+    
+    position: absolute;
+               top: 1200px;
+
+ }
+ #p1{
+    font-size: 30px;
+    color:white;
+   
+ }
+#d14{
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 100%;
+    background-color:yellow;
+    position: absolute;
+             left:  -100px;
+              top: 1620px;
+ }
+ #d15{
+ color:red;
+    font-size: 90px;
+    text-shadow: 10px 0px 0px black;
+    position: absolute;
+             left: 100px;
+             top: 30px;
+ }
+ #d16{
+    
+    color: white;
+    font-size: 150px;
+    text-shadow: 5px 0px 0px red;
+    position: absolute;
+             top:1750px;
+             left: 200px;
+             letter-spacing: 25px;
+ }
+ #d17{
+      height: 300px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+              top: 1650px;
+              left: 700px;
+    
+ }
+
+ #d18{
+    width: 400px;
+    height: 600px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+            top: 2050px;
+ }
+ #i1{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+           top:2050px;
+           left: 300px;
+
+ }
+ #d19{
+    width: 300px;
+    height: 200px;
+    border: 2px solid blueviolet;
+    border-radius: 100%;
+    background-color:blueviolet;
+    position: absolute;
+             left:  -80px;
+              top: 2420px;
+ }
+ #d20{
+ color:red;
+    font-size: 90px;
+    text-shadow: 10px 0px 0px green;
+    position: absolute;
+             left: 70px;
+             top: 30px;
+ }
+ #h9{
+    color: white;
+    font-size: 150px;
+    text-shadow: 5px 0px 0px red;
+    position: absolute;
+             top:2400px;
+             left: 200px;
+             letter-spacing: 15px;
+
+ }
+ #d21{
+    width: 400px;
+    height: 400px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+              top: 2400px;
+              left: 940px;
+
+ }
+ #d22{
+    width: 400px;
+    height: 600px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+            top: 2850px;
+
+ }
+ #i2{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+           top:2850px;
+           left: 410px;
+
+ }
+ #d23{
+    width: 300px;
+    height: 200px;
+    border: 2px solid hotpink;
+    border-radius: 100%;
+    background-color:hotpink;
+    position: absolute;
+             left:  -80px;
+              top: 3200px;
+ }
+ #d24{
+    color:green;
+    font-size: 90px;
+    text-shadow: 5px 0px 0px blue;
+    position: absolute;
+             left: 90px;
+             top: 30px;
+ }
+ #h10{
+    color: white;
+    font-size: 150px;
+    text-shadow: 5px 0px 0px red;
+    position: absolute;
+             top:3200px;
+             left: 230px;
+             letter-spacing: 25px;
+ }
+ #d25{
+    width: 500px;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+              top: 3250px;
+              left: 830px;
+
+ }
+ #d26{
+    width: 400px;
+    height: 600px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+            top: 3590px;
+
+ }
+ #i3{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+           top:3600px;
+           left: 410px;
+
+ }
+
+      
+      
+
+
+</style>
+<body>
+    <div id="d1">
+        <div id="d2"> <div id="name1" >India</div></div>
+        <div id="d3"><div id="name2" >Japan</div></div>
+        <div id="d4"><div id="name3">Dubai  </div></div>
+        <div id="d5"><div id="name4"> Swzi </div></div>
+         <samp id="s1">Food</samp>
+         <samp id="s2">And</samp>
+         <samp id="s3">Travel</samp>
+         <h1 id="h1"><h1 id="h2" >India</h1> </h1>
+         <div id="d11">Biriyani</div>
+         <div id="d12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487293.2774677608!2d78.12784000692413!3d17.412808363619543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1679474114244!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+         </div>
+         <img src="../video/biriyani.gif"  >
+         <div id="d13"> <p id="p1">
+                Hyderabadi biryani (also known as Hyderabadi dum biryani) is a style of biryani originating from Hyderabad, India made with basmati rice and meat (mostly mutton). Originating in the kitchens of the Nizam of Hyderabad, it combines elements of Hyderabadi and Mughlai cuisines.
+             </p></div>
+             <div id="d14">
+                <div id="d15">Japan</div></div>
+                <div id="d16">Pizza</div>
+                <div id="d17">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57725689.150017574!2d127.69065569701623!3d27.984825017214295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapan!5e0!3m2!1sen!2sin!4v1679483295872!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <img id="i1" src="../video/pizz.gif">
+                <div id="d18">As a lover of onsen (hot springs), I often frequented them during my five-year sojourn in Japan. Once, I went to Lake Kawaguchi to enjoy the onsen and the view of Mount Fuji. Arriving in time for lunch, I asked the hotel receptionist for food suggestions.</div>
+                <div id="d19"> <div id="d20" >Dubai</div> </div>
+                <h1 id="h9">Golgappa</h1>
+                <div id="d21" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3011806427!2d54.947284948608434!3d25.076381472700543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1679486233921!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div> 
+                <div id="d22">
+                    Gol gappa (also known as pani puri) is a popular bite-size chaat consisting of a hollow, crispy-fried puffed ball that is filled with potato, chickpeas, onions, spices, and flavoured water, usually tamarind or mint, and popped into one's mouth whole.
+                </div>
+                <img id="i2" src="../video/pani puri.gif">
+                    <div id="d23"><div id="d24"> swzi</div> </div>
+                    <h1 id="h10">Burger</h1>
+                    <div id="d25">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1629155.464451223!2d6.767161162329011!3d46.62223042517412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c64ef6f596d61%3A0x5c56b5110fcb7b15!2sSwitzerland!5e0!3m2!1sen!2sin!4v1679488846809!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div id="d26">
+                        The Burger King Specialty Sandwiches are a line of sandwiches developed by the international fast-food restaurant chain Burger King in 1978 and introduced in 1979 as part of a new product line designed to expand Burger King's menu with more sophisticated, adult oriented fare beyond hamburgers. Wikipedia
+
+                    </div>
+                    <img id="i3" src="../video/burger.gif">
+          
+    </div>
+    
+</body>
+
+</html>
